@@ -1,0 +1,28 @@
+products:
+    css: 'div[data-component-type="s-search-result"]'
+    xpath: null
+    multiple: true
+    type: Text
+    children:
+        title:
+            css: 'h2 a.a-link-normal.a-text-normal'
+            xpath: null
+            type: Text
+        url:
+            css: 'h2 a.a-link-normal.a-text-normal'
+            xpath: null
+            type: Link
+        price:
+            css: 'span.a-price span.a-offscreen'
+            xpath: null
+            type: Text
+        
+        rating:
+            css: 'span span.a-size-base .puis-bold-weight-text'
+            xpath: null
+            type: Text
+
+        number_of_reviews:
+            css: 'div.a-row a span.a-size-base'
+            xpath: null
+            type: Text

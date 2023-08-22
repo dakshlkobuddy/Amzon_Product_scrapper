@@ -1,0 +1,17 @@
+name:
+    css: '#productTitle'
+    type: Text
+price:
+    css: '#price_inside_buybox'
+    type: Text
+
+rating:
+    css: span.arp-rating-out-of-text
+    type: Text
+number_of_reviews:
+    css: 'a.a-link-normal h2'
+    type: Text
+
+product_description:
+    css: '#productDescription'
+    type: Text
